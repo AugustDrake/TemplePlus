@@ -65,19 +65,6 @@ def OnLevelupSpellsFinalize(attachee, args, evt_obj):
 	classSpecModule.LevelupSpellsFinalize(attachee)
 	return
 
-def ArcaneSpellFailure(attachee, args, evt_obj):
-	if evt_obj.data1 != classEnum and evt_obj.data1 != stat_level_wizard:
-		return 0
-
-	equip_slot = evt_obj.data2
-	item = attachee.item_worn_at(equip_slot)
-
-	if item == OBJ_HANDLE_NULL:
-		return 0
-
-	evt_obj.return_val += item.obj_get_int(obj_f_armor_arcane_spell_failure)
-	return 0
-
 classSpecObj = PythonModifier(GetConditionName(), 0)
 classSpecObj.AddHook(ET_OnToHitBonusBase, EK_NONE, OnGetToHitBonusBase, ())
 classSpecObj.AddHook(ET_OnSaveThrowLevel, EK_SAVE_FORTITUDE, OnGetSaveThrowFort, ())
@@ -87,7 +74,6 @@ classSpecObj.AddHook(ET_OnGetBaseCasterLevel, EK_NONE, OnGetBaseCasterLevel, ())
 classSpecObj.AddHook(ET_OnLevelupSystemEvent, EK_LVL_Spells_Activate, OnInitLevelupSpellSelection, ())
 classSpecObj.AddHook(ET_OnLevelupSystemEvent, EK_LVL_Spells_Finalize, OnLevelupSpellsFinalize, ())
 classSpecObj.AddHook(ET_OnLevelupSystemEvent, EK_LVL_Spells_Check_Complete, OnLevelupSpellsCheckComplete, ())
-classSpecObj.AddHook(ET_OnD20Query, EK_Q_Get_Arcane_Spell_Failure, ArcaneSpellFailure, ())
 
 #Armored Mage
 
