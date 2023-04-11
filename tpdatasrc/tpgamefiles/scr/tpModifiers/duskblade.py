@@ -115,7 +115,7 @@ armoredMage.AddHook(ET_OnD20Query, EK_Q_Get_Arcane_Spell_Failure, DuskbladeSpell
 
 #Arcane Attunement (cast dancing lights, detect magic, flare, ghost sound, and read magic)
 
-ArcaneAttunementEnum = 2900
+ArcaneAttunementEnum = 2950
 
 def ArcaneAttunementStrikeRadial(attachee, args, evt_obj):
 	
@@ -179,7 +179,7 @@ arcaneAttunement.AddHook(ET_OnNewDay, EK_NEWDAY_REST, ArcaneAttunementNewDay, ()
 
 #Arcane Channeling
 
-ArcaneChannelingEnum = 2901
+ArcaneChannelingEnum = 2951
 
 def ArcaneChannelingNewDay(attachee, args, evt_obj):
 	
