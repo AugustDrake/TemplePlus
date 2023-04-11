@@ -23,14 +23,10 @@ def MirrorTooltip(attachee, args, evt_obj):
 	return 0
 
 def HasImage(attachee, args, evt_obj):
-	num_images = args.get_arg(2)
-
-	# check if we have the most images
-	if evt_obj.return_val < num_images:
-		evt_obj.return_val = num_images
-		# spell id
-		evt_obj.data1 = args.get_arg(0)
-
+	# number of images
+	evt_obj.return_val = args.get_arg(2)
+	# spell id
+	evt_obj.data1 = args.get_arg(0)
 	return 0
 
 def AddImage(attachee, args, evt_obj):
@@ -62,20 +58,7 @@ def ImageStruck(attachee, args, evt_obj):
 		args.set_arg(2, images-1)
 	return 0
 
-def Override(attachee, args, evt_obj):
-	conds = ['sp-Mirror Image', 'sp-Greater Mirror Image']
-	remove = False
-
-	for cond in conds:
-		if evt_obj.is_modifier(cond):
-			# new condition overwrites
-			args.remove_spell()
-			args.remove_spell_mod()
-
-	return 0
-
-cond = PythonModifier('sp-Greater Mirror Image', 7, 0)
-cond.AddHook(ET_OnConditionAddPre,EK_NONE,Override,())
+cond = PythonModifier('sp-Greater Mirror Image', 7)
 cond.AddHook(ET_OnGetTooltip,EK_NONE,MirrorTooltip,())
 cond.AddHook(ET_OnGetEffectTooltip,EK_NONE,spellEffectTooltip,())
 cond.AddHook(ET_OnBeginRound,EK_NONE,AddImage,())

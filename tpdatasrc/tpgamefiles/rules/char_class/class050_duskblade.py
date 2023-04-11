@@ -57,7 +57,7 @@ spells_per_day = {
 
 spell_list = {
 	0: (spell_acid_splash, spell_disrupt_undead, spell_ray_of_frost, spell_touch_of_fatigue),
-	1: (spell_burning_hands, spell_cause_fear, spell_chill_touch, spell_color_spray, spell_expeditious_retreat, spell_jump, spell_magic_weapon, spell_obscuring_mist, spell_ray_of_enfeeblement, spell_endurance, spell_shocking_grasp, spell_true_strike),
+	1: (spell_bigbys_tripping_hand, spell_burning_hands, spell_cause_fear, spell_chill_touch, spell_color_spray, spell_expeditious_retreat, spell_kelgores_fire_bolt, spell_jump, spell_magic_weapon, spell_obscuring_mist, spell_ray_of_enfeeblement, spell_rouse, spell_endurance, spell_shocking_grasp, spell_true_strike),
 	2: (spell_endurance, spell_bulls_strength, spell_cats_grace, spell_darkvision, spell_ghoul_touch, spell_melfs_acid_arrow, spell_see_invisibility, spell_spider_climb),
 	3: (spell_keen_edge, spell_greater_magic_weapon, spell_protection_from_elements, spell_vampiric_touch),
 	4: (spell_bigbys_interposing_hand, spell_dispel_magic, spell_enervation, spell_fire_shield, spell_phantasmal_killer, spell_shout),

@@ -12,7 +12,7 @@ def OnSpellEffect(spell):
 
 	for target_item in spell.target_list:
 		target = target_item.obj
-		images = min(cap, spell.roll_dice_with_metamagic(1,4,clvl/3))
+		images = min(8, spell.roll_dice_with_metamagic(1,4,clvl/3))
 
 		target.condition_add_with_args(
 				'sp-Greater Mirror Image', spell.id, spell.duration, images, 1, cap)

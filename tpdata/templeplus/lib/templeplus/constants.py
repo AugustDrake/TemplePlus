@@ -3358,6 +3358,30 @@ spell_new_slot_lvl_7 = 1612
 spell_new_slot_lvl_8 = 1613
 spell_new_slot_lvl_9 = 1614
 
+# Reserved for August 1900-2000
+# spell pack 1: duskblades
+spell_blade_of_blood = 1900
+spell_channeled_pyroburst
+
+Blade of Blood
+Channeled Pyroburst
+Crown of Might
+Crown of Protection
+Dimension Hop
+Dispelling Touch
+Doom Scarabs
+Energy Aegis, Lesser
+Energy Aegis
+Energy Aegis, Greater
+Energy Surge
+Regroup
+Seeking Ray
+Slashing Dispel
+Stretch Weapon
+Sure Strike
+Swift Expeditious Retreat
+Toxic Weapon
+
 
 stat_strength = 0
 stat_dexterity = 1
