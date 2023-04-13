@@ -3337,6 +3337,7 @@ spell_slashing_darkness = 1167
 spell_spikes = 1168
 spell_tremor = 1169
 spell_weapon_of_energy = 1170
+spell_sure_strike = 1179 # sagenlicht spell
 spell_inevitable_defeat = 1302
 spell_kelgores_fire_bolt = 1303
 spell_rouse = 1305
@@ -3358,30 +3359,30 @@ spell_new_slot_lvl_7 = 1612
 spell_new_slot_lvl_8 = 1613
 spell_new_slot_lvl_9 = 1614
 
-# Reserved for August 1900-2000
-# spell pack 1: duskblades
-spell_blade_of_blood = 1900
-spell_channeled_pyroburst
-
-Blade of Blood
-Channeled Pyroburst
-Crown of Might
-Crown of Protection
-Dimension Hop
-Dispelling Touch
-Doom Scarabs
-Energy Aegis, Lesser
-Energy Aegis
-Energy Aegis, Greater
-Energy Surge
-Regroup
-Seeking Ray
-Slashing Dispel
-Stretch Weapon
-Sure Strike
-Swift Expeditious Retreat
-Toxic Weapon
-
+# Reserved for August 1700
+# spell pack 1: duskblade spells
+spell_animalistic_power = 1700
+spell_blade_of_blood = 1701
+spell_channeled_pyroburst = 1702
+spell_crown_of_might = 1703
+spell_crown_of_protection = 1704
+spell_dimension_hop = 1705
+spell_dispelling_touch = 1706
+spell_doom_scarabs = 1707
+spell_energy_aegis = 1708
+spell_energy_aegis_greater = 1709
+spell_energy_surge_lesser = 1710
+spell_energy_surge = 1711
+spell_energy_surge_greater = 1712
+spell_halt = 1713
+spell_regroup = 1714
+spell_seeking_ray = 1715
+spell_stand = 1716
+spell_slashing_dispel = 1717
+spell_stretch_weapon = 1718
+spell_swift_expeditious_retreat = 1719
+spell_touch_of_idiocy = 1720
+spell_toxic_weapon = 1721
 
 stat_strength = 0
 stat_dexterity = 1
