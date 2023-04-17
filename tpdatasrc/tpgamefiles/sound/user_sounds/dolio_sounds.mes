@@ -1,11 +1,3 @@
-
-// 1311: Greater Mirror Image
-{32220} {} // begin
-{32221} {spells\sp_mirror_image_loss.wav} // end
-{32222} {spells\sp_mirror_image.wav} // effect
-{32223} {spells\sp_mirror_image.wav} // new round
-{32224} {} // projectile begin
-{32225} {} // projectile end
-{32226} {} // projectile in flight
-{32227} {} // hit
-{32228} {spells\sp_mirror_image_loss.wav} // struck
+// 1313: Stand
+{32241} {spells\sp_Arcane_eye.wav} // end
+{32242} {spells\sp_Arcane_eye_END.wav} // effect

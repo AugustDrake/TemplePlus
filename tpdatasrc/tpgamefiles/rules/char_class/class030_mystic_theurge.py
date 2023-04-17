@@ -68,10 +68,32 @@ def IsAlignmentCompatible( alignment):
 
 
 def ObjMeetsPrereqs( obj ):
-	if obj.divine_spell_level_can_cast() < 2 or obj.arcane_spell_level_can_cast() < 2:
+	if obj.divine_spell_level_can_cast() < 1 or obj.arcane_spell_level_can_cast() < 1:
 		return 0
-	if obj.stat_level_get(stat_level) < 3: # in lieu of Knowledge ranks
-		return 0
+        arc_class = char_class_utils.GetHighestArcaneClass(obj)
+        div_class = char_class_utils.GetHighestDivineClass(obj)
+
+        arc_level = obj.stat_level_get(arc_class)
+        div_level = obj.stat_level_get(div_class)
+        min_level = min(arc_level,div_level)
+        max_level = max(arc_level,div_level)
+
+        cap_level = 12
+
+        if min_level <= 1:
+            if max_level <= 1: cap_level = 4
+            else: cap_level = 7
+        elif min_level == 2:
+            if max_level <= 2: cap_level = 9
+            else: cap_level = 10
+        elif min_level == 3:
+            cap_level = 11
+
+        theurge_level = obj.stat_level_get(classEnum)
+
+        if theurge_level >= cap_level:
+            return 0
+
 	return 1
 
 
