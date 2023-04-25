@@ -1,0 +1,19 @@
+// animalistic power
+{40000}{} // spell begin
+{40001}{spells\sp_bullstrengthEND.wav} // spell end
+{40002}{spells\sp_bullstrength.wav} // spell effect
+{40003}{} // spell new round
+{40004}{} // spell projectile begin
+{40005}{} // spell projectile end
+{40006}{} // spell projectile in-flight
+{40007}{} // spell hit
+
+// animalistic power
+{40020}{} // spell begin
+{40021}{spells\sp_bullstrengthEND.wav} // spell end
+{40022}{spells\sp_bullstrength.wav} // spell effect
+{40023}{} // spell new round
+{40024}{} // spell projectile begin
+{40025}{} // spell projectile end
+{40026}{} // spell projectile in-flight
+{40027}{} // spell hit

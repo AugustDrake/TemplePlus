@@ -1,0 +1,12 @@
+{6700} Animalistic Power {Gain +2 to all physical attributes for 1 minute per level.
+School:		  [Transmutation]
+Casting:		 1 std action [V,S,M]
+Range:			  Touch
+Target:			Creature touched
+Duration:	  1 minutes/level, Save: Will negates (harmless),  SR: Yes}
+{6701} Animalistic Power Mass {Give 1 target/level +2 to all physical attributes for 1 minute per level.
+School:		  [Transmutation]
+Casting:		 1 std action [V,S,M]
+Range:			  Close (25ft. + 5ft./2 lvls)
+Target:			1 creature touched.level
+Duration:	  1 minutes/level, Save: Will negates (harmless),  SR: Yes}

@@ -1,0 +1,5 @@
+ID_string: ANIMALISTIC_POWER
+effect_type: 0
+texture_file: art\interface\player_conditions\buffs\animalistic_power.tga
+help_topic: TAG_SPELLS_ANIMALISTIC_POWER
+tooltip_base_text: Animalistic Power

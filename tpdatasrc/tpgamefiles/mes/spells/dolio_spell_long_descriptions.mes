@@ -20,14 +20,19 @@ Casting:         1  std action  [Enchantment,V,S]
 Range:               Close (25 ft + 5ft / 2 levels)
 Area:                   10 ft burst
 Duration:      Inst.,    Save: None,    SR: No}
-{6306} Greater Mirror Image {Creates illusory duplicates of the caster, adding an additional duplicate each round.
+{6306} Bigby's Tripping Hand {Creates a hand of force that tries to trip the target.
 
-Casting:         1  swift action  [Illusion,V,S]
-Range:               Personal
-Duration:      1 minute/level}
+Casting:         1  std action  [Evocation,V,S]
+Range:               Medium (100 ft. + 10 ft./level)
+Duration:      Inst.,    Save: Ref, SR: Yes}
 {6313} Stand {Prone target briefly blinks out of view, then blinks back, standing.
 
 Casting:         1  swift action  [Conjuration,V,S]
 Range:               Close (25 ft + 5ft / 2 levels)
 Target:             One willing prone creature
 Duration:      Inst.,    Save: Will (harmless), SR: Yes (harmless)}
+{6314} Blade of Blood {Next successful attack on a living creature deals 1d6 or 3d6 extra damage
+
+Casting:         1  swift action  [Necromancy,V,S]
+Target:             One weapon held
+Duration:      1 round/level or until discharged,    Save: None, SR: No}

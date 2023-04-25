@@ -38,3 +38,7 @@
 {3042} {Cold}
 {3043} {Electricity}
 {3044} {Fire}
+
+{4000}{2}
+{4001}{+1d6 Damage}
+{4002}{+3d6 Damage}

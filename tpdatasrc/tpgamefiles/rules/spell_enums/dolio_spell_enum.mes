@@ -7,6 +7,8 @@
 {1309} {Mass Whelm}
 {1310} {Whelming Blast}
 {1311} {Greater Mirror Image}
+{1313} {Stand}
+{1314} {Blade of Blood}
 
 {6302} {Inevitable Defeat}
 {6303} {Kelgore's Fire Bolt}
@@ -16,6 +18,8 @@
 {6309} {Mass Whelm}
 {6310} {Whelming Blast}
 {6311} {Greater Mirror Image}
+{6313} {Stand}
+{6314} {Blade of Blood}
 
 {21302} {TAG_SPELLS_INEVITABLE_DEFEAT}
 {21303} {TAG_SPELLS_KELGORES_FIRE_BOLT}
@@ -25,4 +29,6 @@
 {21309} {TAG_SPELLS_MASS_WHELM}
 {21310} {TAG_SPELLS_WHELMING_BLAST}
 {21311} {TAG_SPELLS_GREATER_MIRROR_IMAGE}
+{21313} {TAG_SPELLS_STAND}
+{21314} {TAG_SPELLS_BLADE_OF_BLOOD}
 
