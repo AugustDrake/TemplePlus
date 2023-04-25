@@ -1,0 +1,5 @@
+TAG_WARRIORS	TAG_BASE_CLASSES			Warriors	This NPC class contains people such as soldiers, guards, and militia.
+TAG_EXPERTS	TAG_BASE_CLASSES			Experts	This NPC class contains people such as skilled artisans, specialist laborers, and ingenious inventors.
+TAG_ADEPTS	TAG_BASE_CLASSES			Adepts	This NPC class possesses a combination of arcane and divine skills.
+TAG_ARISTOCRATS	TAG_BASE_CLASSES			Aristocrats	This NPC class contains people who are usually educated, wealthy individuals who were born into a high position.
+TAG_COMMONERS	TAG_BASE_CLASSES			Commoners	This NPC class contains the laborers of the world, such as innkeepers, servants, blacksmiths, farmers, and fisherfolk.

@@ -3441,7 +3441,12 @@ stat_level_marshal = 83
 stat_level_ultimate_magus = 88
 
 
-
+stat_level_warrior = 91
+stat_level_expert = 92
+stat_level_adept = 93
+stat_level_aristocrat = 94
+stat_level_commoner = 95
+# stat_level_magewright = 96
 
 stat_hp_max = 228
 stat_hp_current = 229
@@ -3516,6 +3521,7 @@ RDF_Monstrous = 2 # Monster races e.g. Trolls
 CDF_None = 0
 CDF_BaseClass = 1 # denotes class is base class (can be taken at level 1, and factors into multiclass calculations; unlike Prestige Classes for instance)
 CDF_CoreClass = 2 # class is drawn from Core 3.5 rules. Those that aren't will not be selectable unless "Non-Core Materials" is enabled.
+CDF_NPCClass = 3 # class drawn from the NPC list. Those that aren't will not be selectable unless "NPC Classes" is enabled.
 
 base_attack_bonus_type_martial = 0
 base_attack_bonus_type_semi_martial = 1

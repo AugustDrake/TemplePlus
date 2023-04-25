@@ -33,6 +33,11 @@
 {31}{stat_level_shadowdancer}
 {32}{stat_level_thaumaturgist}
 
+{91}{stat_level_warrior}
+{92}{stat_level_expert}
+{93}{stat_level_adept}
+{94}{stat_level_aristocrat}
+{95}{stat_level_commoner}
 
 {228}{stat_hp_max}
 {229}{stat_hp_current}

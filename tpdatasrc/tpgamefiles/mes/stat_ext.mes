@@ -67,6 +67,13 @@
 {82}{Fochlucan Lyrist}
 {88}{Ultimate Magus}
 
+// NPC classes
+{91}{Warrior}
+{92}{Expert}
+{93}{Adept}
+{94}{Aristocrat}
+{95}{Commoner}
+
 {300}{Psi Points} // max
 {301}{Psi Points} // cur
 
@@ -141,6 +148,11 @@
 {1088}{UlMa}
 
 
+{1091}{Warr}
+{1092}{Expr}
+{1093}{Adpt}
+{1094}{Arst}
+{1095}{Comn}
 
 {1300}{Psi}
 {1301}{Psi}
@@ -318,6 +330,7 @@ Special:  Can cast 1st-level arcane spells and knows 1 abjuration spell of first
 {13040}Warmage{A warmage is a militant spellcaster whose training focuses on battlefield magic.}
 {13041}Beguiler{A beguiler is a spellcaster who delights in manipulating others, either to their disadvantage or for their own good.}
 {13042}Swashbuckler{The swashbuckler embodies the concepts of daring and panache.}
+{13050}Duskblade{The duskblade blurs the line between spellcaster and warrior, marrying the power of magic with hand-to-hand combat prowess.}
 {13075}Fochlucan Lyrist{The Fochlucan lyrist is a Warrior, thief, spy, poet and woodland champion.
 
 Requirements: Alignment NG/TN/CN/NE.
@@ -332,6 +345,14 @@ Spellcraft 8
 Feats: Any metamagic feat.
 Spellcasting: Spontaneously cast 1st-level arcane spells, prepare and cast 2nd-level arcane spells from a spellbook.
 }
+
+
+
+{13084}Warrior{This NPC class contains people such as soldiers, guards, and militia.}
+{13085}Expert{This NPC class contains people such as skilled artisans, specialist laborers, and ingenious inventors.}
+{13086}Adept{This NPC class possesses a combination of arcane and divine skills.}
+{13087}Aristocrat{This NPC class contains people who are usually educated, wealthy individuals who were born into a high position.}
+{13088}Commoner{This NPC class contains the laborers of the world, such as innkeepers, servants, blacksmiths, farmers, and fisherfolk.}
 
 // Cannot Pick Class Short Help Goes in the range of 20007+
 {20007} Arcane Archer{Arcane Archer requirements:
@@ -349,3 +370,15 @@ Charisma: 11 or higher.}
 {20048} Beguiler {Beguiler requirements:
 Intelligence: 11 or higher.}
 
+{20050} Duskblade{Duskblade requirements:
+Intelligence: 11 or higher.}
+{20091} Warrior{Warrior requirements:
+None.}
+{20092} Expert{Expert requirements:
+None.}
+{20093} Adept{Adept requirements:
+None.}
+{20094} Aristocrat{Aristocrat requirements:
+None.}
+{20095} Commoner{Commoner requirements:
+None.}
